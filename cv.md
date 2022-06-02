@@ -75,3 +75,17 @@ Faculty: Faculty of Accounting and Economics,.
 
 Qualification: Accounting, Analysis and Audit.
 ****
+# Language Skills:
+Russian / С2 (Proficiency)
+
+
+Belarusian / С2 (Proficiency)
+
+
+German / B1 (Intermediate)
+
+
+English / A1 (Beginner / Starter)
+
+
+Polish / A1 (Beginner / Starter)
