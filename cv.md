@@ -1,3 +1,5 @@
+![photo](/1.png "My photo")
+
 # **Nastassia Haladushka**
 
 # Contacts:
