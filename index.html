@@ -4,9 +4,170 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" href="assets/img/fav.ico">
     <title>CV</title>
 </head>
 <body>
-    CV
+    <header class = "header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    
+                  <li class="nav-item"><a href="#About" class="nav-link">About me </a></li>     
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Professional Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code examples</a></li>
+                  <li class="nav-item"><a href="#work" class="nav-link">Work experience</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#language" class="nav-link">Language Skills</a></li>
+
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class = "main">
+        <div class="main_bg"></div> 
+        <div class="container">
+            <section class="profile" id="profile">
+                <div class="photo">
+                    <img src="./assets/img/im1.jpg" style="--color:#FF6B6B" class="picture" alt="My Photo">
+                </div>
+                <div class="My_name">
+                    <h1>Nastassia Haladushka</h1>
+                </div>  
+            </section>
+             <div class="main_wrap">
+            <section class="contacts" id="contacts">
+                <h2 class="contacts_title">
+                    Contacts
+                </h2>
+                    <ul class="contacts_list">
+                        <li class="contacts_item">Email: nhaladushka@gmail.com</li>
+                        <li class="contacts_item">Phone: +48 751 222 722</li>
+                        <li class="contacts_item">Telegram: @NastassiaHaladushka</li>
+                        <li class="contacts_item">Github: @NastassiaHaladushka</li>
+                    </ul>
+            </section>  
+            <section class="About" id="About">
+                <div class="About_me">
+                    <h2 class="About_me_title">About me</h2>
+                        <p class="About_me_text">
+                                I am purposeful and motivated junior frontend developer. 
+                                <br />
+                                I really want to develop my skills in an IT company, 
+                                <br />
+                                master and study new technologies.
+                        </p>
+                       
+                </div>
+            </section>
+
+            <section class="skills" id="skills">
+                <h2 class="skills_title">
+                    Professional Skills:
+                </h2>
+                <ul class="skills_list">
+                    <li class="skills_item">HTML5 & CSS,</li>
+                    <li class="skills_item">JavaScript,</li>
+                    <li class="skills_item">Git,</li>
+                    <li class="skills_item">Cypress.</li>
+                </ul>
+            </section>
+            <section class="code" id="code">
+                <h2 class="code_title">
+                    Code examples:
+                </h2>
+                <p class="code_example">
+                    function understands_video() {
+                        <br />
+                        return !!document.createElement('video').canPlayType; // boolean
+                        <br />
+                        }
+                        <br />
+                        if ( !understands_video() ) {
+                        <br />
+                        // Must be older browser or IE.
+                        <br />
+                        // Maybe do something like hide custom
+                        <br />
+                        // HTML5 controls. Or whatever...
+                        <br />
+                        videoControls.style.display = 'none';
+                        <br />
+                        }  
+                </p>
+            </section>
+            <section class="work" id="work">
+                <h2 class="work_title">
+                    Work experience:
+                </h2>
+                <div class="work_text">
+                    STC XXX LLC, Minsk — Internet and information technology
+                    <br />
+                    June 2019 — now
+                    <br />
+                    <br />
+                    <ul class="work_list">
+                        <li class="work_item">Functional regression and automated software testing.</li>
+                        <li class="work_item">Usability testing.</li>
+                        <li class="work_item">Entering error reports into the bug tracking system.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="education" id="education">
+                <h2 class="education_title">
+                    Education:
+                </h2>
+                <div class="education_text">
+                    September 2009 - June 2013 
+                    <br />
+                    Belarusian State University of Economics
+                    <br />
+                    Faculty: Faculty of Accounting and Economics.
+                    <br />
+                    Qualification: Accounting, Analysis and Audit.
+                    <br />
+                </div>
+            </section>
+            <section class="courses" id="courses">
+                <h2 class="courses_title">
+                    Courses:
+                </h2>
+                <ul class="courses_text">
+                    <li class="courses_item">Udemy: Build Responsive Real-World Websites with HTML and CSS (2022)</li>
+                    <li class="courses_item"> Wayup: Web layout designer: the beginning</li>
+                </ul>
+            </section>
+            <section class="language" id="language">
+                <h2 class="language_title">
+                    Language Skills
+                </h2>
+                <ul class="language_text">
+                    <li class="languages_item">German / B1 (Intermediate)</li>
+                    <li class="languages_item"> English / A1 (Beginner / Starter)</li>
+                    <li class="languages_item">Polish / A1 (Beginner / Starter)</li>
+                </ul>
+            </section>
+            </div> 
+        </div>
+    </main>
+    <footer class = "footer">
+        <div class="container">
+            <div class="footer_wrap">
+                <ul class="footer_list">
+                    <li class="footer_item"><a href="https://www.instagram.com/rsschool_news/" target="_blank"><img class="instagram" src="./assets/img/instagram.png" alt="instagram"></a></li>
+                    <li class="footer_item"><a href="https://www.youtube.com/c/RollingScopesSchool/" target="_blank"><img class="youtube" src="./assets/img/youtube.png" alt="youtube"></a></li>
+                    <li class="footer_item"><a href="https://NastassiaHaladushka.github.io/rsschool-cv/" target="_blank"><img class="github" src="./assets/img/github.png" alt="github"></a></li>
+                </ul>
+                <p class="footer_text">2022</p>
+            
+                <a href="https://rs.school/js/" target="_blank">
+                    <img class="footer_rsschool" src="./assets/img/rs_school_js.png" alt="Logo RS School">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
